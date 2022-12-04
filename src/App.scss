@@ -1,0 +1,36 @@
+.wrapper {
+  background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(108,9,121,0.6786064767703957) 0%, rgba(123, 255, 204, 0.66) 100%);
+  height: 100vh;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 50px;
+}
+
+.button {
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  padding: 10px 24px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
